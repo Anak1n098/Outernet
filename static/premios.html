@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prêmios - Outernet</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container perfil-container">
+    <!-- Header -->
+    <header class="perfil-header">
+      <div class="header-content">
+        <div class="logo">OUTERNET</div>
+        <h1>Prêmios</h1>
+        <a href="/ponto" class="home-icon">🏠</a>
+      </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <div class="premios-content">
+      <h2 class="premios-titulo">Veja seus prêmios!</h2>
+      
+      <!-- Saldo de Pontos -->
+      <div class="pontos-saldo">
+        <div class="pontos-estrela">⭐</div>
+        <span class="pontos-valor" id="pontos-atual">0</span>
+      </div>
+      
+      <p class="pontos-conversao">1h = 100 pts</p>
+      
+      <!-- Lista de Prêmios -->
+      <div id="premios-lista" class="premios-lista">
+        <p style="text-align: center; color: #fff; padding: 2rem;">Carregando prêmios...</p>
+      </div>
+    </div>
+
+    <!-- Barra de Navegação -->
+    <nav class="nav-bar">
+      <a href="/perfil" class="nav-item">👤</a>
+      <div class="nav-divider"></div>
+      <a href="/historico" class="nav-item">🔖</a>
+      <div class="nav-divider"></div>
+      <a href="/premios" class="nav-item active">⭐</a>
+    </nav>
+  </div>
+
+  <script src="/static/premios.js"></script>
+</body>
+</html>
+

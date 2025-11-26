@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bater Ponto - Outernet</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    
+  <div class="container">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+      <h1 style="margin: 0;">Bater Ponto</h1>
+      <div style="display: flex; gap: 1rem;">
+        <a href="/historico" style="text-decoration: none; color: #007bff; font-size: 1.2rem;" title="Histórico">🔖</a>
+        <a href="/premios" style="text-decoration: none; color: #007bff; font-size: 1.2rem;" title="Prêmios">⭐</a>
+        <a href="/perfil" style="text-decoration: none; color: #007bff; font-size: 1.2rem;" title="Perfil">👤</a>
+      </div>
+    </div>
+    <p id="aluno-info">Carregando...</p>
+
+    <div class="timer-section">
+      <h2 id="tempo">00:00:00</h2>
+      <button id="btn-ponto">Bater Ponto</button>
+    </div>
+
+    <p id="mensagem"></p>
+  </div>
+
+  <script src="/static/ponto.js"></script>
+</body>
+</html>

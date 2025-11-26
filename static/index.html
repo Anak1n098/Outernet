@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outernet Login</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Entrar</h1>
+
+    <div class="input-group">
+      <label for="escola">Escola</label>
+      <select id="escola">
+        <option value="Escola Central">Escola Central</option>
+        <option value="Escola Modelo">Escola Modelo</option>
+        <option value="Escola Horizonte">Escola Horizonte</option>
+      </select>
+    </div>
+
+    <div class="input-group">
+      <label for="matricula">Matrícula</label>
+      <input type="text" id="matricula" placeholder="Digite sua matrícula">
+    </div>
+
+    <div class="input-group">
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" placeholder="Digite sua senha">
+    </div>
+
+    <button id="btn-login">Entrar</button>
+    <p id="mensagem"></p>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

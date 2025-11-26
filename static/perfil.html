@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil - Outernet</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container perfil-container">
+    <!-- Header -->
+    <header class="perfil-header">
+      <div class="header-content">
+        <div class="logo">OUTERNET</div>
+        <h1>Perfil</h1>
+        <a href="/ponto" class="home-icon">🏠</a>
+      </div>
+    </header>
+
+    <!-- Informações do Perfil -->
+    <div class="perfil-info">
+      <div class="perfil-avatar">
+        <div class="avatar-circle">👤</div>
+      </div>
+      
+      <div class="perfil-dados">
+        <div class="info-item">
+          <span class="info-label">Nome:</span>
+          <span class="info-value" id="nome">Carregando...</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Idade:</span>
+          <span class="info-value" id="idade">-</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Nível de Ensino:</span>
+          <span class="info-value" id="nivel-ensino">-</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Local de Ensino:</span>
+          <span class="info-value" id="escola">-</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Dias em sequência:</span>
+          <span class="info-value" id="dias-sequencia">-</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Pontos batidos:</span>
+          <span class="info-value" id="pontos">-</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Total de horas:</span>
+          <span class="info-value" id="total-horas">-</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Matrícula:</span>
+          <span class="info-value" id="matricula">-</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ranking da Escola -->
+    <div class="ranking-card">
+      <div class="ranking-icon">🏫</div>
+      <div class="ranking-info">
+        <div class="ranking-escola" id="ranking-escola">-</div>
+        <div class="ranking-posicao" id="ranking-posicao">-</div>
+      </div>
+    </div>
+
+    <!-- Barra de Navegação -->
+    <nav class="nav-bar">
+      <a href="/perfil" class="nav-item active">👤</a>
+      <div class="nav-divider"></div>
+      <a href="/historico" class="nav-item">🔖</a>
+      <div class="nav-divider"></div>
+      <a href="/premios" class="nav-item">⭐</a>
+    </nav>
+  </div>
+
+  <script src="/static/perfil.js"></script>
+</body>
+</html>
+
